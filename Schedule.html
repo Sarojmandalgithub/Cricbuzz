@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  
+ rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="s.css">
+
+
+
+    <style>
+.crcketShedule{
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px #bfbaba;
+  width: 100%;
+  height: 50px;
+  height: 850px;
+}
+.liveCricketLIst ul{
+display: flex;
+list-style: none;
+}
+.li{
+margin-left: 60px;
+}
+.hrLine{
+  border-bottom: 2px solid rgb(15, 106, 76);
+  color:rgb(15, 106, 76) ;
+  font-weight: 800;
+  
+}
+.liveRecent{
+  display: flex;
+  list-style: none;
+}
+.hrSport{
+  position: relative;
+  bottom: 25px;
+}
+.internationl{
+  width: 120px;
+  background-color:rgb(15, 106, 76) ;
+  color: white;
+  border-radius: 10px;
+}
+.mainInter{
+display: flex;
+}
+.Domastic{
+  width: 170px;
+  background-color:rgb(121, 164, 150) ;
+  color: white;
+  border-radius: 10px;
+}
+.women{
+    width: 110px;
+  background-color:rgb(121, 164, 150) ;
+  color: white;
+  border-radius: 10px;
+}
+.friMarch{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(225, 223, 223);
+ 
+}
+
+
+.liveSectionBord{
+  width: 30%;
+  height: 150px;
+  background-color: rgb(225, 223, 223);
+  border-left: 2px solid rgb(124, 10, 10);
+  box-shadow: 0px 0px 3px 3px #bfbaba;
+  padding-top: 20px;
+}
+    </style>
+</head>
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+    <img src="https://static.cricbuzz.com/images/cb_logo.svg" alt="" width="80px" height="60px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 unoderList">
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="livescore.html" style="color: white;">Live Score</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="Schedule.html" style="color: white;">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#" style="color: white;">Archives</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+             News
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">All Stories</a></li>
+              <li><a class="dropdown-item" href="#">Premium EDitors</a></li>
+              <li><a class="dropdown-item" href="#">Latest News</a></li>
+              <li><a class="dropdown-item" href="#">Topics</a></li>
+              <li><a class="dropdown-item" href="#">Spotlight</a></li>
+              <li><a class="dropdown-item" href="#">Opinions</a></li>
+              <li><a class="dropdown-item" href="#">Specails</a></li>
+              <li><a class="dropdown-item" href="#">Interviews</a></li>
+              <li><a class="dropdown-item" href="#">Live Blogs</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+           Series
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Indian Premier league 2024</a></li>
+              <li><a class="dropdown-item" href="#">ICC Men T20 WORlD CUP</a></li>
+              <li><a class="dropdown-item" href="#">SriLanka tour of Newzland</a></li>
+              <li><a class="dropdown-item" href="#">Women Premire League 2024</a></li>
+              <li><a class="dropdown-item" href="#">Bangladesh tour India 2024</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Teams
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">India</a></li>
+              <li><a class="dropdown-item" href="#">Pakistan</a></li>
+              <li><a class="dropdown-item" href="#">South Africa</a></li>
+              <li><a class="dropdown-item" href="#">srilanka</a></li>
+              <li><a class="dropdown-item" href="#">Westindies</a></li>
+              <li><a class="dropdown-item" href="#">England</a></li>
+              <li><a class="dropdown-item" href="#">Australia</a></li>
+              <li><a class="dropdown-item" href="#">Newzland</a></li>
+              <li><a class="dropdown-item" href="#">Afganistan</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Videos
+            </a>
+             <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">All Videos</a></li>
+              <li><a class="dropdown-item" href="#">Categories</a></li>
+            
+              <li><a class="dropdown-item" href="#">Playlist</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              Rankings
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">ICC Ranking-Men</a></li>
+              <li><a class="dropdown-item" href="#">ICC Ranking- Women</a></li>
+       
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">World Test Championship</a></li>
+              <li><a class="dropdown-item" href="#">World Cup super League</a></li>
+              
+              <li><a class="dropdown-item" href="#">Photos</a></li>
+              <li><a class="dropdown-item" href="#">Mobile apps</a></li>
+              <li><a class="dropdown-item" href="#">careers</a></li>
+              <li><a class="dropdown-item" href="#">about us</a></li>
+            </ul>
+          </li>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2  inputCircale" type="search" placeholder="Cricbuzz Plus" aria-label="Search">
+          
+            <i class="fa-solid fa-magnifying-glass searchIcon mx-4 my-1" style="color: #fbfaf9;"></i>
+            <a href="login.html"><i class="fa-solid fa-user searchIcon mx-4 my-1" style="color: #ffffff;"></i></a>
+            
+          </form>
+
+         
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+  <div class="headerMain">
+<ul class="unoderListMain">
+<li>MATCHES</li>
+<li>SL vs BAN</li>
+<li>IND vs AUS</li>
+<li>ENG vs SOU</li>
+<li>AFG vs PKS</li>
+<li>ZIM vs NEW</li>
+
+
+<li class="nav-item dropdown allSlect">
+    <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+      ALL
+    </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </li>
+
+
+</ul>
+
+
+
+
+
+  </div>
+
+
+
+<!-- .............................center.......................... -->
+
+
+  <div class="crcketShedule">
+
+
+<div class="liveCricketLIst">
+  <ul class="py-3">
+    <li class="mx-3">Current Matches</li>
+    <li class="li">Current & Future Series</li>
+    <li class="li hrLine">Matches By Day</li>
+    <li class="li">Teams</li>
+    <li class="li">Series Archives</li>
+  </ul><hr class="hrSport">
+</div>
+
+<div>
+  <h3 class="mx-5 my-4">Cricket Schedule</h3>
+
+</div>
+
+<div class="mainInter">
+  <div class="internationl mx-5 px-3">
+    International
+    </div>
+    
+    <div class=" Domastic px-3">
+      Domastic & Others
+      </div>
+
+      <div class=" Domastic px-4 mx-5 ">
+         T-20 Leagues
+        </div>
+
+        <div class=" women px-4">
+            Women
+            </div>
+
+            <div class=" Domastic px-4 mx-5 ">
+               All Matches
+                </div>
+</div>
+
+<div class="friMarch">
+<h5 class="my-3 px-5 py-3">FRI,MAR 22 2024</h5>
+</div>
+
+<div class="mx-5 my-5">
+  <div class="row">
+<div class="col-lg-4">
+   <b> Sri Lanka tour of Bangladesh, 2024</b>
+</div>
+<div class="col-lg-4">
+   <p style="font-weight: 700;"> Bangladesh vs Sri Lanka, 1st Test, Day 1</p>
+    Sylhet International Cricket Stadium, Sylhet
+</div>
+<div class="col-lg-4">
+   <p style="font-weight: 700;"> 9:30 AM</p>
+    04:00 AM GMT / 10:00 AM LOCAL
+</div>
+  </div>
+</div>
+
+
+<div class="friMarch">
+    <h5 class="my-3 px-5 py-3">SAT,MAR 23 2024</h5>
+    </div>
+    
+    <div class="mx-5 my-5">
+      <div class="row">
+    <div class="col-lg-4">
+       <b> Sri Lanka tour of Bangladesh, 2024</b>
+    </div>
+    <div class="col-lg-4">
+       <p style="font-weight: 700;"> Bangladesh vs Sri Lanka, 1st Test, Day 2</p>
+        Sylhet International Cricket Stadium, Sylhet
+    </div>
+    <div class="col-lg-4">
+       <p style="font-weight: 700;"> 9:30 AM</p>
+        04:00 AM GMT / 10:00 AM LOCAL
+    </div>
+      </div>
+    </div>
+
+
+    <div class="mx-5 my-5">
+        <div class="row">
+      <div class="col-lg-4">
+         <b>Mens African Games, 2024</b>
+      </div>
+      <div class="col-lg-4">
+       <p style="font-weight: 700;"> Uganda vs Kenya, 3rd Place Play-off</p>
+        Achimota Senior Secondary School A Field, Accra
+      </div>
+      <div class="col-lg-4">
+       <p style="font-weight: 700;"> 3:00 PM</p>
+        09:30 AM GMT / 09:30 AM LOCAL
+      </div>
+        </div>
+      </div>
+
+      <div class="mx-5 my-5">
+        <div class="row">
+      <div class="col-lg-4">
+     
+      </div>
+      <div class="col-lg-4">
+       <p style="font-weight: 700;"> Uganda vs Kenya, 3rd Place Play-off</p>
+        Achimota Senior Secondary School A Field, Accra
+      </div>
+      <div class="col-lg-4">
+       <p style="font-weight: 700;"> 3:00 PM</p>
+        09:30 AM GMT / 09:30 AM LOCAL
+      </div>
+        </div>
+      </div>
+
+  </div>
+
+<!-- .............................................................. -->
+
+  <div class="footer">
+    <div class="row">
+      
+    <div class="col-lg-2">
+    
+    </div>
+    <div class="col-lg-8 flexFooter">
+    <div>  <img src="https://static.cricbuzz.com/images/cb_logo.svg" alt="" width="110px" height="80px" style="color: white;" class="my-3"></div>
+<div class="mobileSite">
+  <h5>MOBILE SITE & APPS</h5>
+  <p>m.cricbuzz.com</p>
+  <p><i class="fa-brands fa-android mx-2"></i>andriod</p>
+  <p>IOS</p>
+</div>
+
+<div class="mobileSite ">
+  <h5 class="mx-5">FOLLOW US ON</h5>
+  <p class="mx-5">fasebook</p>
+  <p class="mx-5">twiter</p>
+  <p class="mx-5">youtube</p>
+  <p class="mx-5">pintrest</p>
+</div>
+
+<div class="mobileSite ">
+  <h5>COMPANY</h5>
+  <p>careers</p>
+  <p>Advertise</p>
+  <p>Privacy Police</p>
+  <p>Term of use</p>
+</div>
+
+</div>
+<div class="col-lg-2">
+
+</div>
+
+</div>
+</div>
+
+</body>
+  <script src="script.js"></script>
+</html>

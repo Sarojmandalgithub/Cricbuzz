@@ -1,0 +1,118 @@
+ nav{
+        background-color: rgb(61, 133, 61);
+    }
+    .unoderList{
+margin-left: 50px;
+    }
+    .inputCircale{
+        border-radius: 50px;
+    }
+    .searchIcon{
+        font-size: 30px;
+        
+    }
+    .headerMain{
+        background-color: gray;
+        width: 100%;
+        height: 50px;
+        
+        
+    }
+    .unoderListMain{
+        display: flex;
+        list-style: none;
+       padding: 10px;
+        color: white;
+    }
+    .unoderListMain li{
+        margin-left: 80px;
+    }
+    .allSlect{
+      padding-left: 300px;
+    }
+    .fourCardSection{
+        display: flex;
+    }
+    small{
+        font-size: 8px;
+        font-weight: 900;
+      
+    }
+    .t20{
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        height: 15px;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 15px;
+    }
+    .imgScore{
+        margin-top: 20px;
+    }
+    .scoreText{
+        color: red;
+        font-size: 10px;
+       
+    }
+    .sectionTwo{
+background-color: white;
+width: 100%;
+height: 70px;
+box-shadow: 0px 0px 15px 0px #bfbaba;
+    }
+    .quickFlex{
+        display: flex;
+    }
+    .boxScore{
+background-color: #bfbaba;
+height: 40px;
+margin-top: 15px;
+padding-top: 10px;
+width: 150px;
+padding-left: 10px;
+margin-left: 30px;
+    }
+    .boxScoreCB{
+      background-color: #bfbaba;
+height: 40px;
+margin-top: 15px;
+padding-top: 10px;
+width: 250px;
+padding-left: 10px;
+margin-left: 30px;
+    }
+    .latestNews{
+      background-color: #fbfaf9;
+      box-shadow: 0px 0px 15px 0px #bfbaba;
+      margin-top: 15px;
+  height: 589px;
+    
+    }
+
+    .latestText{
+color: rgb(15, 106, 76);
+margin-left: 10px;
+margin-top: 10px;
+    }
+    .allText{
+      margin-left: 10px;
+    }
+    .latestImg{
+      margin-top: 15px;
+    }
+    .footer{
+      background-color: gray;
+      width: 100%;
+      height: 250px;
+    }
+
+    .flexFooter{
+      display: flex;
+    }
+    .mobileSite{
+      margin-top: 30px;
+      margin-left: 50px;
+      color: white;
+    }
